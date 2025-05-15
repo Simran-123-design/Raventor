@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="car.css">
+    <link rel="stylesheet" href="swiper-bundle.min.css">
+    <title>Responsive car website </title>
+
+</head>
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#" class="nav__logo">RAVENTOR</a>
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav_list">
+                    <li>
+                        <a href="#home" class="nav_link">Home</a>
+                    </li>
+                    <li>
+                        <a href="#about" class="nav_link">About</a>
+                    </li>
+                    <li>
+                        <a href="#models" class="nav_link">Models</a>
+                    </li>
+                    <li>
+                        <a href="#info" class="nav_link">Information</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="nav_link">Contact</a>
+                    </li>
+                </ul>
+                <div class="nav_close" id="nav_close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+            <!-- toggle button -->
+             <div class="nav_toggle" id="nav_toggle">
+                <i class="ri-menu-line"></i>
+             </div>
+        </nav>
+    </header>
+      <!--==================== MAIN ====================-->
+      <main class="main">
+        <!--==================== HOME ====================-->
+        <section class="home grid section" id="home">
+            <img src="car-background1.jpg" alt="" class="home__bg" >
+        <div class="home__gradient">  </div>
+        <div class="home__data">
+            <h3 class="home__subtitle">CHOOSE YOUR RAVENTOR</h3>
+            <h1 class="home__title">RAVENTOR</h1>
+      
+        <div class="home__swiper swiper"></div>
+        <div class="swiper-wrapper">
+       <article class="home__article swiper-slide">
+        <img src="car4.png" alt="image" class="home__img">
+       </article>
+       <article class="home__article swiper-slide">
+        <img src="car1.png" alt="image" class="home__img">
+       </article>
+
+       <article class="home__article swiper-slide">
+        <img src="car2.png" alt="image" class="home__img">
+       </article>
+        </div></div>
+        <div class="swiper-pagination"></div>
+        </section>
+        <a href="#about" class="home__button">
+        <span>START</span>
+        <i class="ri-arrow-down-s-line"></i></a>
+    <script src="car.js"></script>
+    <script src="swiper-bundle.min.js"></script>
+</body>
+</html>
